@@ -122,3 +122,17 @@ a:link {
   color: #1098ad;
   text-decoration: none;
 }
+a:visited {
+  /* color: #10ad3a; */
+  color: #1098ad;
+}
+a:hover {
+  color: rgba(255, 0, 0, 0.745);
+  font-weight: bold;
+  text-decoration: underline wavy greenyellow;
+}
+a:active {
+  background-color: black;
+  font-style: italic;
+}
+/* LVHA */
