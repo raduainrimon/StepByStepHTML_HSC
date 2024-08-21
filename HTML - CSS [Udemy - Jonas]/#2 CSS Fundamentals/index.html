@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <title>The Basic Language of the web: HTML</title>
-
+    <link href="style.css" rel="stylesheet" />
     <!--internal CSS-->
     <!--<style>
       h1 {
@@ -12,35 +12,35 @@
         font-size: 26px;
       }
     </style>-->
-
-    <link href="style.css" rel="stylesheet" />
   </head>
+
   <body>
     <header class="main-header">
       <h1>📘 The Code Magazine</h1>
       <!--inline CSS-->
       <!--<h1 style="color: blue">📘 The Code Magazine</h1>-->
+
       <nav>
         <a href="blog.html">Blog</a>
         <a href="#">Challenges</a>
         <a href="#">Flexbox</a>
         <a href="#">CSS Grid</a>
       </nav>
-      <!--<p>Paragraph test</p>-->
     </header>
 
     <article>
-      <header>
+      <header class="post-header">
         <h2>The Basic Language of the Web: HTML</h2>
         <img
           src="img/laura-jones.jpg"
           width="100px"
           height="100px"
-          alt="headshot of laura-jones"
+          alt="Headshot of Laura Jones"
         />
         <p id="author">
           Posted by <strong>Laura Jones</strong> on Monday, June 21st 2027
         </p>
+
         <img
           src="img/post-img.jpg"
           width="500px"
@@ -55,6 +55,7 @@
         technologies: HTML, CSS and JavaScript. These are the languages of the
         web.
       </p>
+
       <p>
         In this post, let's focus on HTML. We will learn what HTML is all about,
         and why you too should learn it.
@@ -72,22 +73,33 @@
         paragraphs, links, headings, images, video, etc. Web browsers understand
         HTML and render HTML code as websites.
       </p>
-
       <p><b>In HTML, each element is made up of 3 parts: </b></p>
 
       <ol type="a" start="5">
-        <li>The opening tag</li>
+        <li class="firest-li">The opening tag</li>
         <li>The closing tag</li>
         <li>The actual element</li>
       </ol>
 
+      <p>
+        You can learn more at
+        <a
+          href="https://developer.mozilla.org/en-US/docs/Web/HTML"
+          target="_blank"
+          >MDN Web Docs</a
+        >.
+      </p>
       <h3>Why should you learn HTML?</h3>
+
       <p>
         There are countless reasons for learning the fundamental language of the
         web. Here are 5 of them:
       </p>
+
       <ul type="square">
-        <li>To be able to use the fundamental web dev language</li>
+        <li class="firest-li">
+          To be able to use the fundamental web dev language
+        </li>
         <li>
           To hand-craft beautiful websites instead of relying on tools like
           Worpress or Wix
@@ -96,6 +108,7 @@
         <li>To impress friends</li>
         <li>To have fun 😃</li>
       </ul>
+
       <p>Hopefully you learned something new here. See you next time!</p>
     </article>
 
@@ -105,20 +118,20 @@
         <li>
           <img
             src="img/related-1.jpg"
-            width="70"
-            height="70"
-            alt="a boy is coding"
+            width="75"
+            height="75"
+            alt="person programming"
           />
           <a href="#">How to Learn Web Development</a>
           <p class="related-author">By Jonas Schmedtmann</p>
         </li>
         <li>
-          <img src="img/related-2.jpg" width="70" height="70" alt="lightning" />
+          <img src="img/related-2.jpg" width="75" height="75" alt="lightning" />
           <a href="#">The Unknown Powers of CSS</a>
           <p class="related-author">By Jim Dilton</p>
         </li>
         <li>
-          <img src="img/related-3.jpg" width="70" height="70" alt="JS code" />
+          <img src="img/related-3.jpg" width="75" height="75" alt="JS code" />
           <a href="#">Why JavaScript is Awsome</a>
           <p class="related-author">By Matilda</p>
         </li>
@@ -126,7 +139,9 @@
     </aside>
 
     <footer>
-      <p id="copyright">Copyright &copy; 2027 by The Code Magazine</p>
+      <p id="copyright" class="copyright text">
+        Copyright &copy; 2027 by The Code Magazine.
+      </p>
     </footer>
   </body>
 </html>
