@@ -1,7 +1,42 @@
+* {
+  /* border-top: 10px solid blue; */
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family: sans-serif;
   color: #444;
   border-top: 10px solid blueviolet;
+}
+
+.container {
+  width: 800px;
+  /* margin-left: auto;
+  margin-right: auto; */
+  margin: 0 auto;
+}
+
+.main-header {
+  background-color: #f7f7f7;
+  /* padding: 20px;
+  padding-left: 40px;
+  padding-right: 40px; */
+  padding: 20px 40px;
+  margin-bottom: 60px;
+  height: 80px;
+}
+
+nav {
+  font-size: 18px;
+}
+
+article {
+  margin-bottom: 60px;
+}
+
+.post-header {
+  margin-bottom: 60px;
 }
 
 /*combining selectors having same attributes*/
@@ -22,11 +57,14 @@ h1 {
 h2 {
   /*font-family: sans-serif;*/
   font-size: 40px;
+  margin-bottom: 30px;
 }
 
 h3 {
   /*font-family: sans-serif;*/
   font-size: 30px;
+  margin-top: 40px;
+  margin-bottom: 20px;
 }
 
 h4 {
@@ -40,11 +78,21 @@ p {
   /*font-family: sans-serif;*/
   font-size: 22px;
   line-height: 1.5;
+  margin-bottom: 15px;
 }
 
+ul,
+ol {
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
 li {
   /*font-family: sans-serif;*/
   font-size: 20px;
+  margin-bottom: 10px;
+}
+li:last-child {
+  margin-bottom: 0;
 }
 
 /*should avoid HTML structure*/
@@ -74,19 +122,6 @@ li {
 } */
 .related {
   list-style: none;
-}
-
-.main-header {
-  background-color: #f7f7f7;
-}
-
-aside {
-  background-color: #f7f7f7;
-  /*border: 5px solid #1098ad;*/
-  border-top: 5px solid #1098ad;
-  border-bottom: 5px solid #1098ad;
-  /* border-left: 5px solid #1098ad;
-  border-right: 5px solid #1098ad; */
 }
 
 body {
@@ -134,6 +169,19 @@ a:active {
 }
 /* LVHA: LoVe HAe*/
 
+aside {
+  background-color: #f7f7f7;
+  /*border: 5px solid #1098ad;*/
+  border-top: 5px solid #1098ad;
+  border-bottom: 5px solid #1098ad;
+  /* border-left: 5px solid #1098ad;
+  border-right: 5px solid #1098ad; */
+  /* padding-top: 50px;
+  padding-bottom: 50px; */
+  padding: 50px 0;
+  width: 500px;
+}
+
 /* Resolving conflicts */
 /* #copyright {
   color: #f00;
@@ -150,3 +198,8 @@ footer p {
 footer p {
   color: yellow !important;
 } */
+
+.post-image {
+  width: 100%;
+  height: auto;
+}
