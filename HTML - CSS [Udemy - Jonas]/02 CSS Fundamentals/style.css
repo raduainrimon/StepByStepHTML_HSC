@@ -135,4 +135,21 @@ a:active {
   background-color: black;
   font-style: italic;
 }
-/* LVHA */
+/* LVHA: LoVe HAe*/
+
+/* Resolving conflicts */
+/* #copyright {
+  color: #f00;
+}
+.copyright {
+  color: #0f0;
+}
+.text {
+  color: #00f;
+}
+footer p {
+  color: yellow;
+}
+footer p {
+  color: yellow !important;
+} */
