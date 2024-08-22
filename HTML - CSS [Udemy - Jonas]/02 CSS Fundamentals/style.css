@@ -1,13 +1,10 @@
-/*combining selectors having same attributes*/
-h1,
-h2,
-h3,
-h4,
-p,
-li {
+body {
   font-family: sans-serif;
   color: #444;
+  border-top: 10px solid blueviolet;
 }
+
+/*combining selectors having same attributes*/
 h1,
 h2,
 h3 {
